@@ -19,3 +19,6 @@ just test
 Global Error Handling
 without customization
 ![image](https://github.com/user-attachments/assets/9a7ca862-791d-4999-813e-40028a7910c7)
+
+with customization
+![image](https://github.com/user-attachments/assets/a5a813db-c89a-4a25-b53f-165d87d4f8a2)
