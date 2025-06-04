@@ -1,3 +1,4 @@
+### SDL
 ## Queries: 
 just test
 ![image](https://github.com/user-attachments/assets/32f14806-1fdd-44d4-ba08-f3aaaa6ec628)
@@ -25,5 +26,17 @@ with customization
 
 
 ### Programmatic Definition
+## Queries:
 /api/products – Get all products
 ![image](https://github.com/user-attachments/assets/bac1162c-7075-4ae2-80b1-e51ee6f7e417)
+
+/api/products/:id – Get product by ID
+![image](https://github.com/user-attachments/assets/d870837e-8624-4cb3-ad55-571b1c19f906)
+
+
+## Mutations:
+/api/products – Add a new product
+![image](https://github.com/user-attachments/assets/0e771c48-aa35-41b3-9033-09f5ff7f6289)
+
+/api/products/:id – Update product by ID
+![image](https://github.com/user-attachments/assets/c351bf72-dc7a-46bd-ad5d-725215deb62c)
