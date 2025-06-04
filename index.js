@@ -9,7 +9,7 @@ const PORT = 3000;
 
 
 // GraphQL endpoint
-app.use('/graphql', graphqlHTTP({
+app.use('/api/products', graphqlHTTP({
   schema,
   rootValue: root,
   graphiql: true,
@@ -17,6 +17,6 @@ app.use('/graphql', graphqlHTTP({
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`🚀 Server running at http://localhost:${PORT}/graphql`);
+  console.log(`🚀 Server running at http://localhost:${PORT}//api/products`);
 });
 

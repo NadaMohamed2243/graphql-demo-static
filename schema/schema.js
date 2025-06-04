@@ -6,7 +6,15 @@ const schema = buildSchema(`
     view: Int
   }
 
+  type Product {
+    id: ID!
+    name: String!
+    price: Float!
+    categoryId: Int!
+  }
+
   type RootQuery {
+    getAllProducts: [Product]
     hello: testData
   }
 
