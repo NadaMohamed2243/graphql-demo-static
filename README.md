@@ -1,5 +1,5 @@
-### SDL
-## Queries: 
+## SDL
+### Queries: 
 just test
 ![image](https://github.com/user-attachments/assets/32f14806-1fdd-44d4-ba08-f3aaaa6ec628)
 
@@ -25,8 +25,8 @@ with customization
 ![image](https://github.com/user-attachments/assets/a5a813db-c89a-4a25-b53f-165d87d4f8a2)
 
 
-### Programmatic Definition
-## Queries:
+## Programmatic Definition
+### Queries:
 /api/products – Get all products
 ![image](https://github.com/user-attachments/assets/bac1162c-7075-4ae2-80b1-e51ee6f7e417)
 
