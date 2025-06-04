@@ -15,6 +15,7 @@ const schema = buildSchema(`
 
   type RootQuery {
     getAllProducts: [Product]
+    getProductById(id: Int!): Product
     hello: testData
   }
 
