@@ -1,4 +1,5 @@
 const data = require('../data')
+const productSchema = require('../schema/productSchema')
 const root = {
   hello: () => {
     return {
@@ -18,6 +19,11 @@ const root = {
   },
   
   addProduct:({input})=>{
+    const { error , value} = productSchema.validate(input);
+    if (error) {
+      error.statusCode = 400;
+      throw error;
+    }
     const newProduct = {
       id: data.length + 1,
       ...input,
