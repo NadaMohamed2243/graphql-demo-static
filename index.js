@@ -13,6 +13,18 @@ app.use('/api/products', graphqlHTTP({
   schema,
   rootValue: root,
   graphiql: true,
+  formatError(err){
+    if(!err.originalError){
+        return err;
+    } else {
+        const data = err.originalError.data;
+        const statusCode = err.originalError.statusCode;
+        const message = err.message;
+        return {
+           data, statusCode ,message
+        }
+    }
+  }
 }));
 
 // Start server
