@@ -24,6 +24,13 @@ const root = {
     };
     data.push(newProduct);
     return newProduct;
+  },
+
+  updateProduct: ({ id, input }) => {
+    const index = data.findIndex(d => d.id === id);
+    if (index === -1) throw new Error("Product not found");
+    data[index] = { id, ...input };
+    return data[index];
   }
 
 };

@@ -27,6 +27,7 @@ const schema = buildSchema(`
 
   type RootMutation{
     addProduct(input: ProductInput!): Product
+    updateProduct(id: Int!, input: ProductInput!): Product
   }
 
   schema {
