@@ -13,7 +13,7 @@ app.use('/api/products', graphqlHTTP({
   schema,
   rootValue: root,
   graphiql: true,
-  formatError(err){
+  customFormatErrorFn(err){
     if(!err.originalError){
         return err;
     } else {
@@ -29,6 +29,6 @@ app.use('/api/products', graphqlHTTP({
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`🚀 Server running at http://localhost:${PORT}//api/products`);
+  console.log(`🚀 Server running at http://localhost:${PORT}/api/products`);
 });
 
