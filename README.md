@@ -15,3 +15,7 @@ just test
 
 /api/products/:id – Update product by ID
 ![image](https://github.com/user-attachments/assets/db78c772-92dd-43dd-82c9-084679803044)
+
+Global Error Handling
+without customization
+![image](https://github.com/user-attachments/assets/9a7ca862-791d-4999-813e-40028a7910c7)
