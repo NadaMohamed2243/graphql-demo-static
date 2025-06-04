@@ -12,3 +12,6 @@ just test
 ## Mutations:
 /api/products – Add a new product
 ![image](https://github.com/user-attachments/assets/e2a1d261-2726-4fc6-b7a0-640dd9040d5b)
+
+/api/products/:id – Update product by ID
+![image](https://github.com/user-attachments/assets/db78c772-92dd-43dd-82c9-084679803044)
