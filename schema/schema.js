@@ -13,14 +13,25 @@ const schema = buildSchema(`
     categoryId: Int!
   }
 
+  input ProductInput {
+    name: String!
+    price: Float!
+    categoryId: Int!
+  }
+
   type RootQuery {
     getAllProducts: [Product]
     getProductById(id: Int!): Product
     hello: testData
   }
 
+  type RootMutation{
+    addProduct(input: ProductInput!): Product
+  }
+
   schema {
     query: RootQuery
+    mutation: RootMutation
   }
 `);
 
