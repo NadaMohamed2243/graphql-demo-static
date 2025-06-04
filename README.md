@@ -7,3 +7,8 @@ just test
 
 /api/products/:id – Get product by ID
 ![image](https://github.com/user-attachments/assets/af830585-4c6a-401a-a9ee-f80b5a6dd9f8)
+
+
+## Mutations:
+/api/products – Add a new product
+![image](https://github.com/user-attachments/assets/e2a1d261-2726-4fc6-b7a0-640dd9040d5b)
